@@ -4,6 +4,11 @@ Benchmark the performance of regression, shallow neural networks, and deep neura
 Data source: https://www.kaggle.com/mirichoi0218/insurance
 
 Benchmark results: 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
+Method | RMSE Train (n=788) | RMSE Dev (n=276) | RMSE Test (n=274)
+:---: | :---: | :---: | :---:
+Multivariate linear regression  | 5967.490 | 5801.741 | 6517.482
+Single Neuron Neural Network  | 6340.828 | 6081.110  | 6713.342
+Shallow Neural Network  | 5411.143 | 5338.118 | 5883.508
+Deep Neural Network  | 4881.547 | 4836.446 | 5653.502
+
