@@ -3,7 +3,7 @@ Benchmark the performance of regression, shallow neural networks, and deep neura
 
 Data source: https://www.kaggle.com/mirichoi0218/insurance
 
-Benchmark results: 
+Benchmark results (Root mean squared error across training, dev, and test sets): 
 
 Method | RMSE Train (n=788) | RMSE Dev (n=276) | RMSE Test (n=274)
 :---: | :---: | :---: | :---:
